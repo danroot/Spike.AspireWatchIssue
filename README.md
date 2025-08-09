@@ -14,6 +14,9 @@ This repository is a minimal example of the issue described in the [Aspire issue
 1. Stop the application.
 1. Run `dotnet watch --project ./Spike.AspireWatchIssue.AppHost/Spike.AspireWatchIssue.AppHost.csproj`
 1. Observe the error message indicating a `NullReferenceException` in `BlazorWebAssemblyDeltaApplier.WaitForProcessRunningAsync`.
+1. Comment the line adding the BlazorWasm project in `AppHost.cs` 
+1. Run `dotnet watch --project ./Spike.AspireWatchIssue.AppHost/Spike.AspireWatchIssue.AppHost.csproj`
+1. Observe that the application starts successfully.
 
 ```
 dotnet watch ❌ [Spike.AspireWatchIssue.AppHost (net9.0)] Exited with error code 143
