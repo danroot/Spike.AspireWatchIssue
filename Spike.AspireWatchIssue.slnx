@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Spike.AspireWatchIssue.Api/Spike.AspireWatchIssue.Api.csproj" />
+  <Project Path="Spike.AspireWatchIssue.AppHost/Spike.AspireWatchIssue.AppHost.csproj" />
+  <Project Path="Spike.AspireWatchIssue.ServiceDefaults/Spike.AspireWatchIssue.ServiceDefaults.csproj" />
+  <Project Path="Spike.AspireWatchIssue.Web.BlazorWasm/Spike.AspireWatchIssue.Web.BlazorWasm.csproj" />
+  
+</Solution>

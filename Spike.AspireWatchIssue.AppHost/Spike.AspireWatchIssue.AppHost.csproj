@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Sdk Name="Aspire.AppHost.Sdk" Version="9.4.0" />
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>7a1b153d-955e-4721-96c2-c34cde4b504a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <ProjectReference Include="..\Spike.AspireWatchIssue.Web.BlazorWasm\Spike.AspireWatchIssue.Web.BlazorWasm.csproj" />  
+    <ProjectReference Include="..\Spike.AspireWatchIssue.Api\Spike.AspireWatchIssue.Api.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aspire.Hosting.AppHost" Version="9.4.0" />
+  </ItemGroup>
+
+</Project>

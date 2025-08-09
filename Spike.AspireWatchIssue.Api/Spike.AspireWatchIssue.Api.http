@@ -1,0 +1,6 @@
+@Spike.AspireWatchIssue.Api_HostAddress = http://localhost:5143
+
+GET {{Spike.AspireWatchIssue.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
